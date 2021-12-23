@@ -71,7 +71,8 @@ class App extends Component {
     }
     else 
     {
-      window.alert('SC not deloyed to detected network! ')
+      window.alert('Smart contract not deployed to detected network! ')
+      console.log("Smart contract not deployed to detected network!!!!")
     }
   }
 
